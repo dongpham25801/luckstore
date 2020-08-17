@@ -1,0 +1,107 @@
+#a-icon-user:hover{
+    color: #dc4a38;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+#sign-in{
+    color: black;
+    font-size: 16px;
+    width: 150px;
+}
+
+#sign-up{
+    color: black;
+    font-size: 16px;
+    width: 150px;
+}
+
+#sign-out-mm{
+    font-size: 16px;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+#sign-out-mm:hover{
+    font-size: 16px;
+    color: #dc4a38;
+    font-weight: bold;
+}
+
+.showSignUp {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.showSignUp .btn-sign-in-up {
+    visibility: hidden;
+    width: 160px;
+    background-color: #F0F2F5;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.showSignUp .btn-sign-in-up::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.showSignUp .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 0.5s;
+    animation: fadeIn 0.5s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+#card-title{
+    font-size: 20px;
+    border-bottom: 1px solid #0a0a0a;
+}
+
+#price{
+    color: #e7ab3c;
+}
+
+#availability{
+    color: #00a045;
+}
+/* PRODUCT DETAIL*/
+
+/*Button add to cart*/
+
+#logo-luckshop span{
+    color: #0d0d0d;
+    font-weight: bolder;
+    font-size: 32px;
+}
